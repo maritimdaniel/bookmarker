@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+header h2{
+    margin: 1em 0;
+    color: rgb(139, 139, 139);
+    font-weight: lighter;
+}
+
+.container{
+    min-height: 40vh;
+    max-width: 60vw;
+    margin: 0 auto;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.form{
+    background: rgb(235, 235, 235);
+    padding: 2em;
+    border-radius: 0.4rem;
+    margin-top: 1.5em;
+}
+
+form h1{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 1.2em auto 0.5em;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-btn{
+    display: block;
+    margin: 1em auto 0;
+    background: rgb(65, 191, 241);
+    color: white;
+    padding: 0.8em 1.3em;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    color: black;
+    background: rgb(66, 186, 233);
+}
+
+.display-container{
+    margin: 2em 1em;
+}
+
+.display{
+    background-color:  rgb(235, 235, 235);
+    padding: 1.5em;
+    border-radius: 0.3em;
+    display: flex;
+    margin-bottom: 0.7em;
+}
+
+.btn{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+.visit{
+    background: rgb(190, 190, 190);
+}
+
+.delete{
+    background: rgb(245, 60, 60);
+}
+
+footer{
+    max-width: 60vw;
+    margin: 0.7em auto;
+    color: rgb(163, 163, 163);
+    font-size: 0.8rem;
+}
